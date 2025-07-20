@@ -7,6 +7,7 @@ const lines = [
 let output = "";
 
 for (let i = 0; i < lines.length; i++) {
-  output += lines[i] ;
+  output += lines[i] + "\n";
 }
-console.log(output);
+
+console.log(output.trim());
